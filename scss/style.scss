@@ -1,0 +1,147 @@
+$logo-font: 'Delius Unicase', cursive;
+$gold: #ffbb33;
+
+/* Navbar section */
+nav {
+  background-color: rgba(0, 0, 0, 0);
+}
+
+nav.scroll {
+  background-color: rgba(0, 0, 0, 1);
+  color: #eef;
+}
+
+.navbar-brand {
+  font-family: $logo-font;
+}
+
+.active {
+  border-bottom: 2px solid $gold;
+}
+
+/* Main Header */
+#main-header-section {
+  min-height: 750px;
+  background-image: url('../img/social.jpeg');
+  background-size: cover;
+}
+
+.header-overlay {
+  background: rgba(0,0,0,0.77);
+  top: 0;
+  left: 0;
+  min-height: 750px;
+  color: white;
+}
+
+.header-content {
+  margin: 0 auto;
+  text-align: center;
+  padding-top: 280px;
+}
+
+/* Home Info Section */
+section {
+  padding: 8rem 0;
+}
+
+#info-section {
+  text-align: center;
+}
+
+.dark-section {
+  background-color: #131313;
+  color: white;
+}
+
+/* Footer */
+footer {
+  margin: 0;
+  padding-top: 4rem;
+}
+
+.link-section a {
+  padding: 0.1rem 0;
+  font-size: 0.8rem;
+}
+
+footer h5 {
+  font-size: 1rem;
+}
+
+footer a {
+  color: #F0A000;
+}
+
+.copywrite-info {
+  margin: 0 auto;
+  padding-bottom: 2rem;
+  text-align: center;
+  margin-top: 4rem;
+}
+
+.copywrite-info p {
+  margin: 0;
+  padding: 0;
+  padding-top: 0.5rem;
+}
+
+.fa-facebook-square {
+  color: #0d47a1;
+}
+
+.fa-instagram {
+  color: #d81b60;
+}
+
+.fa-twitter-square {
+  color: #33b5e5;
+}
+
+.icons a:hover {
+  opacity: 0.6;
+}
+
+hr {
+  border: 0.5px solid #C7C7C7;
+}
+
+
+
+/* Media Queries */
+@media only screen and (max-width: 700px) {
+  .display-2 {
+    font-size: 4rem;
+  }
+
+  .header-content {
+    padding-top: 170px;
+  }
+
+  .active {
+    margin-top: 1.2rem;
+  }
+
+  li {
+    text-align: center;
+    margin: 0;
+    margin-top: -1px;
+    background-color: rgba(0, 0, 0, 0.9);
+  }
+
+  footer .container {
+    flex-direction: column;
+  }
+
+  footer {
+    padding-top: 1rem;
+  }
+
+  footer h5 {
+    padding-top: 2.5rem;
+  }
+
+  img {
+    padding: 2rem 0;
+  }
+}
